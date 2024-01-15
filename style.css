@@ -64,6 +64,9 @@ nav a {
   font-size: 2.25rem;
   font-weight: 800;
 }
+
+/* first section */
+
 .select-section {
   background-image: linear-gradient(
       180deg,
@@ -126,16 +129,38 @@ nav a {
   padding-bottom: 48px;
 }
 
-
-
-
-
-
-
-
-
-
-
+/* second section */
+.second-section {
+  display: flex;
+  justify-content: center;
+  gap: 105px;
+}
+.sec-img {
+  width: 33%;
+  height: 40%;
+}
+.second-section-text {
+  width: 45%;
+}
+.sec-ul {
+  padding-left: 30px;
+}
+.h6 {
+  color: #131318;
+  font-size: 2.2rem;
+  font-weight: 800;
+  
+}
+.h7 {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px; 
+  width: 525px;
+}
+.second-section .btn-primary{
+  margin-top: 32px;
+}
 
 /* responsive corner */
 @media screen and (max-width: 600px) {
@@ -146,11 +171,12 @@ nav a {
     display: block;
   }
   nav {
+    
     padding-right: 70px;
     justify-content: space-around;
   }
   .select-section {
-    margin: 10px 40px;
+    margin: 10px 20px;
     flex-direction: column;
     width: 335px;
     height: 483px;
@@ -171,7 +197,6 @@ nav a {
   .btn-primary {
     width: 255px;
     height: 52px;
-    flex-shrink: 0;
   }
 
   .select-section-header {
@@ -190,8 +215,25 @@ nav a {
     margin-left: 20px;
     padding-bottom: 25px;
   }
-  
-  .section1{
+
+  .section1 {
     margin-top: -110px;
+  }
+  .second-section{
+    flex-direction: column;
+    gap: 37px;
+    margin-left: 10px;
+    margin-top: 25px;
+  }
+  .sec-img {
+    width: 80%;
+    height: 70%;
+  }
+  .h7{
+    font-size: 0.875rem;
+    width: 335px;
+  }
+  .h6{
+    font-size: 1.25rem;
   }
 }
