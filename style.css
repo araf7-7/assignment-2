@@ -277,7 +277,7 @@ nav a {
 }
 .choose-text {
   padding-top: 25px;
-  margin-left: 360px;
+  margin-left: 473px
   width: 400px;
   color: rgba(19, 19, 24, 0.7);
   font-size: 1rem;
@@ -415,7 +415,7 @@ nav a {
   margin-top: 10px;
 }
 .img-h4 {
-  top: 4162px;
+  top: 4135px;
   background-image: url(images/Rectangle\ 14.png);
   position: absolute;
   right: 88px;
@@ -631,7 +631,7 @@ nav a {
     height: 60px;
     transform: rotate(-19.628deg);
     left: 215px;
-    top: 5979px;
+    top: 5952px;
   }
   .img-p {
     color: #fff;
