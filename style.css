@@ -315,7 +315,8 @@ nav a {
 
 .choose-text {
   padding-top: 25px;
-  margin-left: 473px width: 400px;
+  width: 30%;
+  margin-left: 473px;
   color: rgba(19, 19, 24, 0.7);
   font-size: 1rem;
   font-weight: 400;
@@ -468,7 +469,7 @@ nav a {
 }
 
 .img-h4 {
-  top: 4135px;
+  top: 4836px;
   background-image: url(images/Rectangle\ 14.png);
   position: absolute;
   right: 88px;
@@ -541,6 +542,37 @@ footer {
   margin-top: 50px;
 }
 
+/* bonus-section */
+.bonus-section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.bonus-1 {
+  width: 500px;
+  height: 355.88px;
+  border-radius: 13.301px;
+  background: var(--white, #FFF);
+  box-shadow: 3px 3px 3px 3px;
+  padding-top: 120px;
+  padding-left: 20px;
+}
+.bonus-1 h4{
+  margin-top: 20px;
+}
+.bonus-text h3{
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.bonus-img{
+  gap: 50px;
+  display: flex;
+  justify-content: center;
+}
+
 /* responsive corner */
 @media screen and (max-width: 600px) {
   header {
@@ -555,10 +587,14 @@ footer {
     display: block;
   }
 
+  label i {
+    margin-left: 50px;
+  }
+
   nav {
-    padding-right: 70px;
+    padding-right: 42px;
     justify-content: space-around;
-    gap: 70px;
+    gap: 64px
   }
 
   .select-section {
@@ -704,7 +740,7 @@ footer {
 
   .first-part-choose,
   .third-choose {
-    margin-left: 20px;
+    margin-left: 32px;
   }
 
   .choose-p {
@@ -773,7 +809,7 @@ footer {
     height: 60px;
     transform: rotate(-19.628deg);
     left: 215px;
-    top: 5971px;
+    top: 7574px;
   }
 
   .img-p {
@@ -797,5 +833,15 @@ footer {
   .hr {
     width: 62%;
     margin-left: 88px
+  }
+  .bonus-section ,
+  .bonus-img{
+    flex-direction: column;
+  }
+  .bonus-img{
+    width: 80%;
+  }
+  .bonus-1{
+    width: 80%;
   }
 }
