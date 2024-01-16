@@ -3,9 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Mulish", sans-serif;
 }
+
 .btn-primary {
   width: 174px;
   height: 52px;
@@ -16,6 +18,7 @@ body {
   font-size: 1rem;
   font-weight: 700;
 }
+
 /* Nav Section */
 nav {
   display: flex;
@@ -23,22 +26,27 @@ nav {
   align-items: center;
   margin-top: 3.25rem;
 }
+
 nav div {
   display: flex;
   align-items: center;
 }
+
 .nav-icon {
   display: none;
 }
-nav > ul {
+
+nav>ul {
   display: flex;
   justify-content: space-around;
 
   gap: 2.75rem;
 }
+
 nav li {
   list-style: none;
 }
+
 nav a {
   text-decoration: none;
   color: #424247;
@@ -46,20 +54,24 @@ nav a {
   font-size: 1.125rem;
   font-weight: 400;
 }
+
 .home {
   color: #ff5400;
   text-align: center;
   font-size: 1.125rem;
   font-weight: 400;
 }
+
 .nav-img {
   padding-right: 1rem;
 }
+
 .nav-title {
   color: #131318;
   font-size: 2.25rem;
   font-weight: 800;
 }
+
 .atlas {
   color: #ff5400;
   font-size: 2.25rem;
@@ -69,11 +81,9 @@ nav a {
 /* first section */
 
 .select-section {
-  background-image: linear-gradient(
-      180deg,
+  background-image: linear-gradient(180deg,
       rgba(19, 19, 24, 0.8) 0%,
-      rgba(19, 19, 24, 0) 100%
-    ),
+      rgba(19, 19, 24, 0) 100%),
     url(images/first-image.png);
   width: 1170px;
   height: 500px;
@@ -85,6 +95,7 @@ nav a {
   padding-top: 150px;
   background-position: center;
 }
+
 .background1 {
   display: inline-flex;
   padding: 16px;
@@ -103,6 +114,7 @@ nav a {
   font-size: 1rem;
   font-weight: 400;
 }
+
 .h2 {
   width: 174px;
   height: 52px;
@@ -113,12 +125,14 @@ nav a {
   font-size: 1rem;
   font-weight: 400;
 }
+
 .select-section-header {
   color: #fff;
   font-size: 4rem;
   font-weight: 800;
   padding-bottom: 24px;
 }
+
 .select-section-text {
   width: 676px;
   color: #fff;
@@ -135,21 +149,26 @@ nav a {
   justify-content: center;
   gap: 105px;
 }
+
 .sec-img {
   width: 33%;
   height: 500px;
 }
+
 .second-section-text {
   width: 45%;
 }
+
 .sec-ul {
   padding-left: 30px;
 }
+
 .h6 {
   color: #131318;
   font-size: 2.2rem;
   font-weight: 800;
 }
+
 .h7 {
   color: rgba(19, 19, 24, 0.7);
   font-size: 1rem;
@@ -157,16 +176,20 @@ nav a {
   line-height: 26px;
   width: 525px;
 }
+
 .second-section .btn-primary {
   margin-top: 32px;
 }
+
 /* third-section */
 .third-section {
   margin-top: 100px;
 }
+
 .third-texts {
   text-align: center;
 }
+
 .third-p {
   margin-top: 20px;
   color: rgba(19, 19, 24, 0.7);
@@ -174,35 +197,42 @@ nav a {
   font-weight: 400;
   line-height: 26px;
 }
+
 .flex-row {
   display: flex;
   justify-content: center;
   gap: 25px;
   margin-top: 50px;
 }
+
 .row {
   position: relative;
 }
+
 .row img {
   width: 573px;
   height: 300px;
   border-radius: 16px;
 }
+
 .row .srilanka {
   width: 374px;
   height: 286px;
   border-radius: 16px;
 }
+
 .row .america {
   width: 474px;
   height: 286px;
   border-radius: 16px;
 }
+
 .row .kashmir {
   width: 274px;
   height: 286px;
   border-radius: 16px;
 }
+
 .row .bandarban {
   width: 673px;
   height: 300px;
@@ -217,6 +247,7 @@ nav a {
   font-size: 28px;
   font-weight: 800;
 }
+
 .country-name-2 {
   position: absolute;
   top: 45%;
@@ -225,6 +256,7 @@ nav a {
   font-size: 28px;
   font-weight: 800;
 }
+
 .country-name-3 {
   position: absolute;
   top: 45%;
@@ -233,6 +265,7 @@ nav a {
   font-size: 28px;
   font-weight: 800;
 }
+
 .country-name-4 {
   position: absolute;
   top: 45%;
@@ -241,6 +274,7 @@ nav a {
   font-size: 28px;
   font-weight: 800;
 }
+
 .country-name-5 {
   position: absolute;
   top: 45%;
@@ -249,6 +283,7 @@ nav a {
   font-size: 28px;
   font-weight: 800;
 }
+
 .country-name-6 {
   position: absolute;
   top: 45%;
@@ -257,6 +292,7 @@ nav a {
   font-size: 28px;
   font-weight: 800;
 }
+
 .country-name-7 {
   position: absolute;
   top: 45%;
@@ -265,6 +301,7 @@ nav a {
   font-size: 28px;
   font-weight: 800;
 }
+
 .img11 {
   width: 573px;
   height: 300px;
@@ -275,19 +312,21 @@ nav a {
   text-align: center;
   margin-top: 100px;
 }
+
 .choose-text {
   padding-top: 25px;
-  margin-left: 473px
-  width: 400px;
+  margin-left: 473px width: 400px;
   color: rgba(19, 19, 24, 0.7);
   font-size: 1rem;
   font-weight: 400;
   line-height: 26px;
 }
+
 .choose-img {
   margin-top: 20px;
   margin-left: 20px;
 }
+
 .choose-heading {
   color: #131318;
   font-size: 1.5rem;
@@ -295,6 +334,7 @@ nav a {
   margin-top: 20px;
   margin-left: 20px;
 }
+
 .choose-p {
   width: 486px;
   color: #5a5a5d;
@@ -312,6 +352,7 @@ nav a {
   border: 1px solid rgba(251, 181, 99, 0.2);
   background: rgba(251, 181, 99, 0.05);
 }
+
 .second-choose {
   width: 573px;
   height: 284px;
@@ -319,6 +360,7 @@ nav a {
   border: 1px solid rgba(41, 206, 246, 0.2);
   background: rgba(41, 206, 246, 0.05);
 }
+
 .third-choose {
   width: 573px;
   height: 284px;
@@ -328,6 +370,7 @@ nav a {
   margin-top: 25px;
   margin-left: 30%;
 }
+
 .first-part-choose {
   display: flex;
   gap: 20px;
@@ -344,6 +387,7 @@ nav a {
   margin-top: 25px;
   margin-bottom: 25px;
 }
+
 .video-ul {
   color: #131318;
   font-size: 1rem;
@@ -353,26 +397,28 @@ nav a {
   width: 518px;
   margin-bottom: 30px;
 }
+
 .video {
   width: 450px;
   height: 350px;
   margin-right: 90px;
   border-radius: 16px;
-  background: linear-gradient(
-    180deg,
-    #131318 -31.96%,
-    rgba(19, 19, 24, 0) 100%
-  );
+  background: linear-gradient(180deg,
+      #131318 -31.96%,
+      rgba(19, 19, 24, 0) 100%);
 }
+
 .video-text-section {
   margin-left: 90px;
 }
+
 .video-section {
   gap: 10px;
   margin-top: 100px;
   display: flex;
   justify-content: space-between;
 }
+
 /* fifth-section */
 .fifth-p {
   color: #5a5a5d;
@@ -381,12 +427,15 @@ nav a {
   line-height: 26px;
   margin-top: 10px;
 }
+
 .fifth-section {
   margin-top: 115px;
   display: flex;
   justify-content: center;
   gap: 25px;
+  margin-bottom: 50px;
 }
+
 .input-text {
   width: 393px;
   height: 52px;
@@ -395,16 +444,19 @@ nav a {
   border: none;
   margin-top: 20px;
 }
+
 .fifth-section .btn-primary {
   width: 393px;
   height: 52px;
   margin-top: 16px;
 }
+
 .fifth-img {
   width: 672px;
   height: 422px;
   border-radius: 16px;
 }
+
 .fifth-input {
   width: 474px;
   height: 400px;
@@ -414,6 +466,7 @@ nav a {
   padding-left: 20px;
   margin-top: 10px;
 }
+
 .img-h4 {
   top: 4135px;
   background-image: url(images/Rectangle\ 14.png);
@@ -427,11 +480,13 @@ nav a {
   background: #ff5400;
   padding-top: 15px;
 }
+
 .img-p {
   color: #fff;
   text-align: center;
   font-size: 1rem;
 }
+
 .img-h3 {
   color: #fff;
   font-size: 1.3rem;
@@ -439,29 +494,85 @@ nav a {
   text-align: center;
 }
 
+footer {
+  width: 100%;
+  height: 500px;
+  background-color: rgba(19, 19, 24, 0.05);
+}
+
+.foot1 {
+  padding-top: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footp {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 330px;
+  width: 50%;
+  color: #5A5A5D;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.social-icons {
+
+  padding-top: 30px;
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+}
+
+.footend {
+  color: #131318;
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.hr {
+  width: 60%;
+  margin-left: 260px;
+  margin-top: 50px;
+}
+
 /* responsive corner */
 @media screen and (max-width: 600px) {
+  header {
+    padding-left: 30px;
+  }
+
   nav ul {
     display: none;
   }
+
   .nav-icon {
     display: block;
   }
+
   nav {
     padding-right: 70px;
     justify-content: space-around;
     gap: 70px;
   }
+
   .select-section {
     margin: 10px 20px;
     flex-direction: column;
     width: 335px;
     height: 483px;
   }
+
   .nav-title,
   .atlas {
     font-size: 1rem;
   }
+
   .background1 {
     flex-direction: column;
     width: 287px;
@@ -469,6 +580,7 @@ nav a {
     align-items: flex-start;
     gap: 16px;
   }
+
   .h2,
   .h1,
   .btn-primary {
@@ -481,6 +593,7 @@ nav a {
     font-size: 22px;
     font-weight: 800;
   }
+
   .select-section-text {
     width: 304px;
     color: #fff;
@@ -496,57 +609,70 @@ nav a {
   .section1 {
     margin-top: -110px;
   }
+
   .second-section {
     flex-direction: column;
     gap: 37px;
-    margin-left: 10px;
+    margin-left: 50px;
     margin-top: 25px;
   }
+
   .second-section .btn-primary {
     width: 174px;
     height: 52px;
   }
+
   .sec-img {
     width: 80%;
     height: 70%;
   }
+
   .h7 {
     font-size: 0.875rem;
     width: 335px;
   }
+
   .h6 {
     font-size: 1.25rem;
   }
+
   .flex-row {
     flex-direction: column;
   }
+
   .row .i-1 {
     width: 335px;
     height: 176px;
   }
+
   .full-des {
     width: 80%;
     margin: 0 auto;
   }
+
   .country-name-1,
   .country-name-3,
   .country-name-5 {
     top: 40%;
     right: 32%;
   }
-  .country-name-2{
+
+  .country-name-2 {
     top: 39%;
     right: 29%
   }
-  .country-name-4{
+
+  .country-name-4 {
     top: 42%;
     right: 16%;
   }
-  .country-name-6{
+
+  .country-name-6 {
     top: 38%;
     right: 22%
   }
-  .country-name-7{
+
+  .country-name-7 {
     top: 40%;
     right: 24%;
   }
@@ -561,32 +687,40 @@ nav a {
   }
 
   .choose-text {
-    margin-left: 5px;
+    margin-left: 43px;
+    width: 80%;
   }
+
   .first-part-choose {
     flex-direction: column;
   }
+
   .first-choose,
   .second-choose,
   .third-choose {
-    width: 335px;
+    width: 366px;
     height: 300px;
   }
+
   .first-part-choose,
   .third-choose {
     margin-left: 20px;
   }
+
   .choose-p {
     width: 271px;
     font-size: 0.875rem;
   }
+
   .video-section {
     flex-direction: column;
   }
+
   .video-section .btn-primary {
     width: 174px;
     height: 52px;
   }
+
   .video-text-section {
     margin-left: 20px;
   }
@@ -594,9 +728,11 @@ nav a {
   .video-texts {
     width: 335px;
   }
+
   .video-ul {
     width: 335px;
   }
+
   .video {
     margin-left: 10px;
     width: 400px;
@@ -607,41 +743,59 @@ nav a {
     flex-direction: column;
     margin-left: 10px;
   }
+
   .fifth-input {
     width: 400px;
     height: 370px;
   }
+
   .input-text {
     width: 370px;
     height: 52px;
   }
+
   .fifth-section .btn-primary {
     width: 370px;
     height: 52px;
   }
+
   .fifth-img {
     width: 405px;
     height: 300px;
   }
+
   .fifth-section {
     margin-top: 20px;
   }
+
   .img-h4 {
     width: 200px;
     height: 60px;
     transform: rotate(-19.628deg);
     left: 215px;
-    top: 5952px;
+    top: 5971px;
   }
+
   .img-p {
     color: #fff;
     text-align: center;
     font-size: 15.854px;
   }
+
   .img-h3 {
     color: #fff;
     font-size: 21px;
     font-weight: 800;
     text-align: center;
+  }
+
+  .footp {
+    margin-left: 51px;
+    width: 80%;
+  }
+
+  .hr {
+    width: 62%;
+    margin-left: 88px
   }
 }
