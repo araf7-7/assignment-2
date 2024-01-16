@@ -174,12 +174,96 @@ nav a {
   font-weight: 400;
   line-height: 26px;
 }
-.row {
+.flex-row {
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 25px;
-  margin-top: 40px;
+  margin-top: 50px;
+}
+.row {
+  position: relative;
+}
+.row img {
+  width: 573px;
+  height: 300px;
+  border-radius: 16px;
+}
+.row .srilanka {
+  width: 374px;
+  height: 286px;
+  border-radius: 16px;
+}
+.row .america {
+  width: 474px;
+  height: 286px;
+  border-radius: 16px;
+}
+.row .kashmir {
+  width: 274px;
+  height: 286px;
+  border-radius: 16px;
+}
+.row .bandarban {
+  width: 673px;
+  height: 300px;
+  border-radius: 16px;
+}
+
+.country-name-1 {
+  position: absolute;
+  top: 45%;
+  right: 40%;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+.country-name-2 {
+  position: absolute;
+  top: 45%;
+  right: 40%;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+.country-name-3 {
+  position: absolute;
+  top: 45%;
+  right: 35%;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+.country-name-4 {
+  position: absolute;
+  top: 45%;
+  right: 30%;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+.country-name-5 {
+  position: absolute;
+  top: 45%;
+  right: 30%;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+.country-name-6 {
+  position: absolute;
+  top: 45%;
+  right: 30%;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+.country-name-7 {
+  position: absolute;
+  top: 45%;
+  right: 37%;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
 }
 .img11 {
   width: 573px;
@@ -194,7 +278,7 @@ nav a {
 .choose-text {
   padding-top: 25px;
   margin-left: 360px;
-  max-width: 600px;
+  width: 400px;
   color: rgba(19, 19, 24, 0.7);
   font-size: 1rem;
   font-weight: 400;
@@ -328,6 +412,31 @@ nav a {
   border: 1px solid #ff5400;
   padding-top: 45px;
   padding-left: 20px;
+  margin-top: 10px;
+}
+.img-h4 {
+  top: 4162px;
+  background-image: url(images/Rectangle\ 14.png);
+  position: absolute;
+  right: 88px;
+  bottom: 80px;
+  width: 300px;
+  height: 100px;
+  transform: rotate(-30deg);
+  border-radius: 16px;
+  background: #ff5400;
+  padding-top: 15px;
+}
+.img-p {
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+}
+.img-h3 {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 800;
+  text-align: center;
 }
 
 /* responsive corner */
@@ -408,22 +517,49 @@ nav a {
   .h6 {
     font-size: 1.25rem;
   }
-  .row {
+  .flex-row {
     flex-direction: column;
   }
+  .row .i-1 {
+    width: 335px;
+    height: 176px;
+  }
+  .full-des {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .country-name-1,
+  .country-name-3,
+  .country-name-5 {
+    top: 40%;
+    right: 32%;
+  }
+  .country-name-2{
+    top: 39%;
+    right: 29%
+  }
+  .country-name-4{
+    top: 42%;
+    right: 16%;
+  }
+  .country-name-6{
+    top: 38%;
+    right: 22%
+  }
+  .country-name-7{
+    top: 40%;
+    right: 24%;
+  }
+
   .third-p {
-    width: 300px;
+    width: 70%;
     font-size: 0.75rem;
     text-align: center;
     padding-left: 10px;
     font-weight: 400;
-    margin-left: 30px;
+    margin-left: 50px;
   }
-  .row img,
-  .img1 {
-    width: 335px;
-    height: 176px;
-  }
+
   .choose-text {
     margin-left: 5px;
   }
@@ -472,7 +608,7 @@ nav a {
     margin-left: 10px;
   }
   .fifth-input {
-    width: 410px;
+    width: 400px;
     height: 370px;
   }
   .input-text {
@@ -487,7 +623,25 @@ nav a {
     width: 405px;
     height: 300px;
   }
-  .fifth-section{
+  .fifth-section {
     margin-top: 20px;
+  }
+  .img-h4 {
+    width: 200px;
+    height: 60px;
+    transform: rotate(-19.628deg);
+    left: 215px;
+    top: 5979px;
+  }
+  .img-p {
+    color: #fff;
+    text-align: center;
+    font-size: 15.854px;
+  }
+  .img-h3 {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 800;
+    text-align: center;
   }
 }
